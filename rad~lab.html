@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <style>
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: -box;
+    background: black;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    box-shadow: 0 2px 5px white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    
+}
+.connect{
+    color: aqua;
+    text-transform: capitalize;
+    height: 50%;
+    margin-left: 20%;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+    
+}
+strong{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    text-shadow: 2px 2px 4px wheat;
+    font-size: 1.5vw;
+}
+.icon{
+    
+    height: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5%;
+}
+.icon a{
+    color: white;
+    margin: 1vw;
+}
+.content{
+    height: 100vh;
+    width: 90%;
+    margin-left: 5%;
+    background: url('artifical.svg');
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    background-position: left;
+    background-color: white;
+
+}
+.rad-lab{
+    height: 10%;
+    width: 100%;
+    border-bottom: 4px solid silver;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+}
+.rad-lab img{
+    height: 90%;
+    width: 20%;
+}
+#person{
+    position: relative;
+    left: 30vw;
+    bottom: 1vh;
+
+}
+.phover:hover{
+color: red;
+}
+.aboutheading{display: inline-block;
+    font-size: 5vw;
+    position: relative;
+    top: 5%;
+    left: 4%;
+    font-family: 'Roboto', sans-serif;
+color: rgba(0, 0, 0, 0.705);
+border-bottom: 4px solid silver;
+    
+}
+.svgbottom{
+    margin-top: 50vh;
+}
+.aboutinfo{position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 42vw;
+    z-index: 1;
+    
+}
+.aboutinfo::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: url('artifical.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+    z-index: -1;
+    filter: blur(1px);
+    opacity: .6;
+
+}
+
+h1{
+    font-size: 2vw;
+    text-transform: capitalize;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 5px;
+    margin: 1%;
+    box-shadow: 4px 4px  10px black,-4px -4px 10px white;
+    border-bottom:3px solid silver ;
+}
+p{
+    font-size: 1.4vw;
+    text-transform: capitalize;
+    font-family: 'Girassol', cursive;
+    margin: 1%;
+    box-shadow: 4px 4px  10px black,-4px -4px 10px white;
+    border-bottom:3px solid silver ;
+}
+.signup{
+    font-size: 2vw;
+    text-transform: capitalize;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 5px;
+    margin: 2%;
+    
+    border-bottom:3px solid silver ;
+}
+.sin:hover{
+    color: black;
+}
+.or{ display: inline;
+    font-size: 1.2vw;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 2px;
+    position: relative;
+left: 30%;
+    box-shadow: 3px 3px 5px black,-3px -3px 5px white;
+    cursor: pointer;
+
+}
+form{
+margin-top: 10%;
+    height: 40%;
+    width: 50%;
+
+
+}
+::placeholder{
+    color: wheat;
+}
+#email{
+    display: block;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+}
+#pass{
+    margin-top: 10%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+}
+#btn{
+    margin-top: 10%;
+    margin-left: 20%;
+    text-transform: uppercase;
+    
+}
+#btn:hover{
+color: wheat;
+    background: url('https://media.giphy.com/media/xUn3CngkdaGqI78CC4/giphy.gif');
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+<div class="connect">connect with <strong>rad lab</strong></div>
+<div class="icon">
+    <ul>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-pinterest-p"></i></a>
+        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+    </ul>
+</div>
+    </nav>
+    <div class="content">
+        <div class="rad-lab"><abbr title="RAD LAB @copyright2021"><img src="Watch Owl!.png" alt="" ></abbr>
+           <abbr title="Members"><a href="" class="phover"><i class="fas fa-users fa-2x" id="person"></i></a></abbr>
+        </div>
+        <div class="aboutheading">About us</div>
+        <div class="aboutinfo"><h1>A world changing AI technologies</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi error, ipsam commodi corrupti voluptatibus velit quam unde nihil laborum, doloribus distinctio quod ullam. Soluta, cupiditate eveniet rem enim ducimus quo autem alias possimus!lorem23
+        <br>
+        <br>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ad totam id dolores a autem nemo perferendis earum ratione ex cupiditate quibusdam mollitia rem labore illo, asperiores dolor, dolore corrupti minus, vitae aliquid? Enim, architecto?</p>
+    <div class="signup">sign up with
+      <abbr title="google account"><a href=""class="sin" ><i class="fab fa-google"></i></a></abbr>
+       <abbr title="microsoft account"><a href=""class="sin"><i class="fab fa-microsoft"></i></a></abbr>
+        <abbr title="linkedin account"><a href=""class="sin"><i class="fab fa-linkedin-in"></i></a></abbr>
+       <abbr title="facebook account"><a href=""class="sin"><i class="fab fa-facebook"></i></a></abbr>
+    </div>
+    <abbr title="enter email and password"><div class="or">or sing in</div></abbr>
+    <form action="">
+        <i class="fas fa fa-mail-bulk"></i>
+<input type="email" placeholder="email id" required id="email">
+<input type="password" placeholder="password" required id="pass">
+<input type="button" value="sign in" id="btn">
+    </form>
+</div>
+<div class="svgbottom">
+        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L720,0L1440,224L1440,320L720,320L0,320Z"></path>
+        </svg>
+        </div>
+    </div>
+</body>
+</html>
